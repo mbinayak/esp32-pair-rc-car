@@ -1,6 +1,6 @@
-# ESP32 RC Car with Joystick Control
+# Max RC Car - ESP32 + BLE Gamepad
 
-A fun personal project designed for my toddler to enjoy a wireless RC car, while I explore embedded systems and motor control using ESP32.
+A fun personal project designed for my toddler to enjoy a wireless RC car.
 
 ---
 
@@ -47,8 +47,8 @@ New code for this setup lives in:
 
 ```
 code/
-└── ble-joystic-receiver-rc-car/
-    └── ble-joystic-receiver-rc-car.ino
+└── ble-gamepad-receiver-rc-car/
+    └── ble-gamepad-receiver-rc-car.ino
 ```
 
 ---
@@ -60,7 +60,7 @@ code/
 ├── assets/
 │   └── wiring_diagrams/             # Circuit diagrams
 ├── code/
-│   ├── ble-joystic-receiver-rc-car/
+│   ├── ble-gamepad-receiver-rc-car/
 │   ├── shared/
 │   ├── wifi_joystick_controller/
 │   └── wifi_rc_car_controller/
